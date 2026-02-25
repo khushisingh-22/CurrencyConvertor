@@ -1,16 +1,28 @@
-# React + Vite
+# 💱 CurrencyConvertor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive currency conversion web application built with *React.js* and *Tailwind CSS*.
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Live Data Fetching:** Uses a custom `useCurrencyInfo` hook to fetch real-time exchange rates from an external API.
+* *Glassmorphism UI:* A sleek, polished design using Tailwind's `backdrop-blur` and custom styling.
+* *Swap Functionality:* Instantly switch between 'From' and 'To' currencies with a single click.
+* *Reusable Components:* Clean and modular code usi
+*Responsive Design:* Optimized for all screen sizes (Mobile, Tablet, and Desktop).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+* *Frontend:* React.js (Vite)
+* *Styling:* Tailwind CSS
+* *State Management:* React Hooks (`useState`, `useEffect`)
+* *API:* Fawaz Ahmed's Currency API
 
-## React Compiler
+## 🛠️ Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/khushisingh-22/CurrencyConvertor.git](https://github.com/khushisingh-22/CurrencyConvertor.git)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  2. Install dependencies:
+      npm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+      
+  3.Run the project:
+     npm run dev
