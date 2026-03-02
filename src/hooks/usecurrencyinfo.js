@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
     const [data,setData] = useState({})
   useEffect(() => {
   
-//fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json`)
+ // fetching data 
  fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json
     `)
 
